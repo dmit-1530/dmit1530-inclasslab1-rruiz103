@@ -20,25 +20,39 @@ body {
     font-size: 1rem;
 }
 
+header{
+    background-image:url(/dmit-1530-lab-01-start/img/mountains.jpg);
+}
+
 h1{
     font-size: 4rem;
     font-weight: bold;
     color: var(--dark-slate-gray);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 h2{
     font-size: 2.25rem;
     color: var(--dark-slate-gray);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 h3{
     font-size: 1.25rem;
     color: var(--night);
+    margin-bottom: .5rem;
 }
 
 footer h3{
     font-size: 1.5rem;
     color: var(--dark-slate-gray);
+    margin-top: 6rem;
+}
+
+p{
+    margin-bottom: 1.50rem;
 }
 
 .button{
@@ -49,6 +63,7 @@ footer h3{
     text-decoration: none;
     border: 4px solid;
     border-radius: 0.3125rem; 
+    
 }
 
 .container{
@@ -64,10 +79,23 @@ footer h3{
     margin: 4.5rem auto;
 }
 
-
-
 footer{
     background-color: var(--night);
     color:var(--dark-slate-gray);
     font-weight: bold;
+    text-align: center;
+    padding-top: 0.001rem;
+    padding-bottom: 0.15rem;
+}
+
+.div-image{
+    width: 30vh;
+}
+
+footer p{
+    background-color: var(--night);
+    color:var(--dark-slate-gray);
+    font-weight: bold;
+    text-align: center;
+    margin-top: .25rem  ;
 }

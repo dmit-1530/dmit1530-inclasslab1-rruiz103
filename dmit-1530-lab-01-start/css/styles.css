@@ -69,19 +69,25 @@ footer h3{
     color: var(--dark-slate-gray);
     text-decoration: none;
     border: 4px solid;
-    border-radius: 0.3125rem; 
-    
+    border-radius: 0.3125rem;    
 }
 
 .container{
-    max-width: 64rem;
     align-items: center;
     margin: 0 auto; 
+    background-color: var(--french-gray);
+}
+
+main{
+    padding-left:1rem;
+    max-width: 64rem;
+    margin: 0 auto;
 }
 
 .flex-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
     margin: 4.5rem auto;
 }
@@ -95,8 +101,8 @@ footer{
 }
 
 .div-image{
-    width: 36.5vw;
-    height: 36.5vw;
+    width: 18vw;
+    height: 18vw;
 }
 
 footer p{
@@ -106,3 +112,4 @@ footer p{
     text-align: center;
     margin-top: 1.1rem;
 }
+

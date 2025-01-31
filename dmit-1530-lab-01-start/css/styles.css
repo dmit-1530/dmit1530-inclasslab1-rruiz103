@@ -9,6 +9,12 @@
     body copy: 'Open Sans', sans-serif;
 */
 
+:root{
+    --night:            #182222;
+    --dark-slate-gray:  #405B5B;
+    --french-gray:      #e2dfe7;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
@@ -16,31 +22,52 @@ body {
 
 h1{
     font-size: 4rem;
+    font-weight: bold;
+    color: var(--dark-slate-gray);
 }
 
 h2{
     font-size: 2.25rem;
+    color: var(--dark-slate-gray);
 }
 
 h3{
     font-size: 1.25rem;
+    color: var(--night);
 }
 
 footer h3{
     font-size: 1.5rem;
+    color: var(--dark-slate-gray);
 }
 
-button{
+.button{
     font-size: 1.25rem;
+    font-weight:bold;
+    padding: 0.625rem 1.25rem; 
+    color: var(--dark-slate-gray);
+    text-decoration: none;
+    border: 4px solid;
+    border-radius: 0.3125rem; 
 }
 
 .container{
-    /* max-width: 1024px;
+    max-width: 64rem;
     align-items: center;
-    margin: 0 auto; */
+    margin: 0 auto; 
 }
 
 .flex-container{
     display: flex;
     justify-content: center;
+    gap: 1.5rem;
+    margin: 4.5rem auto;
+}
+
+
+
+footer{
+    background-color: var(--night);
+    color:var(--dark-slate-gray);
+    font-weight: bold;
 }

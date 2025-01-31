@@ -18,6 +18,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
+    max-width: 128rem;
 }
 
 .second-section{
@@ -94,7 +95,8 @@ footer{
 }
 
 .div-image{
-    width: 29.5vh;
+    width: 36.5vw;
+    height: 36.5vw;
 }
 
 footer p{
